@@ -1,0 +1,53 @@
+.breadcrumb {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  border-radius: 20px;
+  background: url("../images/btc6.png  ") center center;
+
+  @media (max-width: 1199.95px) {
+    height: 350px;
+    margin-top: 60px;
+  }
+
+  .breadcrumb-content {
+    width: 100%;
+    padding: 0px 65px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+
+    @media (max-width: 1199.95px) {
+      bottom: 60px;
+      padding: 0px 30px;
+    }
+  }
+
+  h1 {
+    font-size: 64px !important;
+    font-weight: 700;
+
+    @media (max-width: 1199.95px) {
+      font-size: 48px !important;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 40px !important;
+    }
+  }
+
+  h5 {
+    font-size: 20px !important;
+    font-weight: 400;
+
+    @media (max-width: 1199.95px) {
+      font-size: 18px !important;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 16px !important;
+    }
+  }
+}

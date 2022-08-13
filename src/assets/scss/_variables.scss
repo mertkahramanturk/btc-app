@@ -1,0 +1,135 @@
+//
+// variables.scss
+//
+
+// Base font
+$font-size-base: 16px;
+$font-family-base: "Inter", sans-serif;
+$font-family-secondary: "Inter", sans-serif;
+
+// Color
+$white:                 #ffffff;
+
+$primary:               #6a40bc;
+$primary-light:         #e240f8;
+$primary-light-opacity: #E7A3F3;
+$primary-light-opacity-hight: #DCCAFE;
+$primary-dark:          #352259;
+$primary-opacity:       rgba(106, 64, 188, 0.1);
+
+$secondary:             #01dfb8;
+$secondary-light:       #42e7aa;
+
+$success:               #00a28a;
+$success-light:         #17ce8a;
+
+$warning:               #ffa115;
+$warning-light:         #ff955a;
+
+$info:                  #06afff;
+$info-light:            #3cbafe;
+$info-dark:             #3C8AFE;
+
+$danger:                #cb1212;
+$danger-light:          #ff5b5a;
+
+$yellow:                #ffd215;
+
+$skill:                 #e9f0f8;
+
+$light:                 #9ea2b1;
+$muted:                 #9ea2b1;
+
+$content:               #32334b;
+$content2:              #06071B;
+$content-light:         #646d82;
+$content-lighter:       #D9D9D9;
+
+$p1:                    #ab53db;
+$p2:                    #00a28a;
+$p3:                    #ffbc54;
+$p4:                    #ff5b5a;
+
+$web:                   #F67C7C;
+$mobile:                #E7A3F3;
+
+
+
+$dark:                  #000000;
+$black:                 #161c2d;
+$skyblue:               #32c2ec;
+$skobleoff:             #0f7173;
+$slateblue:             #766df4;
+// Gray
+$gray-100:              #f8f9fa;
+$gray-200:              #e9ecef;
+$gray-300:              #dee2e6;
+$gray-400:              #ced4da;
+$gray-500:              #adb5bd;
+$gray-600:              #6c757d;
+$gray-700:              #495057;
+
+// Overlay
+$overlay: rgba($dark, 0.7);
+$bg-overlay-white: rgba($white, 0.5);
+
+//Body Background
+$shadow: 0 0 5px rgba($dark, 0.15);
+$shadow-md: 0 5px 13px rgba($dark, 0.2);
+$shadow-lg: 0 10px 25px rgba($dark, 0.15);
+$footer: lighten($black, 6%);
+
+$colors: (
+    "white":            $white,
+    "primary":          $primary,
+    "primary-light":    $primary-light,
+    "primary-dark":     $primary-dark,
+    "primary-opacity":  $primary-opacity,
+    "primary-light-opacity-hight": $primary-light-opacity-hight,
+    "primary-light-opacity": $primary-light-opacity,
+    "skill":            $skill,
+    "secondary":        $secondary,
+    "secondary-light":  $secondary-light,
+    "success":          $success,
+    "success-light":    $success-light,
+    "warning":          $warning,
+    "warning-light":    $warning-light,
+    "info":             $info,
+    "info-light":       $info-light,
+    "info-dark":        $info-dark,
+    "danger":           $danger,
+    "danger-light":     $danger-light,
+    "yellow":           $yellow,
+    "light":            $light,
+    "muted":            $muted,
+    "content":          $content,
+    "content2":         $content2,
+    "content-light":    $content-light,
+    "content-lighter":  $content-lighter,
+    "p1":               $p1,
+    "p2":               $p2,
+    "p3":               $p3,
+    "p4":               $p4,
+    "web":              $web,
+    "mobile":           $mobile,
+
+    "dark":             $dark,
+    "blue":             $primary,
+    "footer":           $footer,
+);
+
+$heading-font-sizes: (
+    "h1": 64px,
+    "h2": 48px,
+    "h3": 42px,
+    "h4": 28px,
+    "h5": 24px,
+    "h6": 18px,
+);
+
+$display-font-sizes: (
+    "display-1": 80px,
+    "display-2": 72px,
+    "display-3": 64px,
+    "display-4": 56px,
+);

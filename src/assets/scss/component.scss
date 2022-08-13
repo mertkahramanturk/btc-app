@@ -1,0 +1,18 @@
+@each $name, $value in $colors {
+    .badge-#{$name} {
+      background-color: #{$value} !important;
+      color: $white !important;
+    }
+  
+    .badge-outline-#{$name} {
+      background-color: transparent !important;
+      color: #{$value} !important;
+      border: 1px solid #{$value} !important;
+    }
+  }
+  
+  .badge-pills {
+    border-radius: 60px;
+   padding: 8px 10px 8px 10px;
+  }
+  
